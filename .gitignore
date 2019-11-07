@@ -1,0 +1,5 @@
+dataset/
+pickles/text_vec.pickle
+*.zip
+*.hdf5
+*.csv

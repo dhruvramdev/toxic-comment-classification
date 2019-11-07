@@ -1,0 +1,33 @@
+{
+  "name": "Toxic Comment NLP",
+  "version": "1.0",
+  "description": "Build an Extension For NLP Project",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "http://localhost:5000/detect",
+    "http://*/"
+  ],
+  "browser_action": {
+    "default_icon": "images/logo.png",
+    "default_title": "Remove Hate Speech"
+  },
+  "background": {
+    "scripts": [
+      "jquery-3.4.1.min.js",
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*reddit.com*"
+      ],
+      "js": [
+        "jquery-3.4.1.min.js",
+        "contents.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}

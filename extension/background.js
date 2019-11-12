@@ -1,5 +1,5 @@
-// chrome.pageAction.onClicked.addListener(function (tab) {
-chrome.browserAction.onClicked.addListener(function (tab) {
+chrome.pageAction.onClicked.addListener(function (tab) {
+// chrome.browserAction.onClicked.addListener(function (tab) {
     // Send a message to the active tab
     console.log("Clicked Page Actions");
     chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {

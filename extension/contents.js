@@ -16,6 +16,9 @@ chrome.runtime.onMessage.addListener(
                                 sum += result.result[key];
                             }
                             if (sum > 0) {
+                                console.log("Toxicity Found");
+                                console.log(para);
+                                console.log(result.result);
                                 processElement(element);
                             }
                         }
@@ -30,7 +33,7 @@ chrome.runtime.onMessage.addListener(
 function processElement(element) {
     element.style.backgroundColor = "rgb(215, 218, 220)";
     element.addEventListener("click", function () {
-        console.log(element.style.backgroundColor)
+        // console.log(element.style.backgroundColor)
         if (element.style.backgroundColor === "rgb(215, 218, 220)") {
             element.style.backgroundColor = "transparent"
         } else {
@@ -40,4 +43,4 @@ function processElement(element) {
 }
 
 console.log("Activating Chrome Extension: Hate Speech");
-// chrome.runtime.sendMessage({"message": "activate_icon"});
+chrome.runtime.sendMessage({"message": "activate_icon"});

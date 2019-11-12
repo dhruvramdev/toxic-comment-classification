@@ -8,7 +8,7 @@
     "http://localhost:5000/detect",
     "http://*/"
   ],
-  "browser_action": {
+  "page_action": {
     "default_icon": "images/logo.png",
     "default_title": "Remove Hate Speech"
   },
@@ -21,7 +21,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*reddit.com*"
+        "*://*.reddit.com/*"
       ],
       "js": [
         "jquery-3.4.1.min.js",

@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44b7ebe7-509d-4742-b6d6-9703ac1b9f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flask/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Untitled.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/contents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project old.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572785876209</updated>
       <workItem from="1572785877385" duration="10343000" />
-      <workItem from="1573579213283" duration="3414000" />
+      <workItem from="1573579213283" duration="4880000" />
     </task>
     <servers />
   </component>
